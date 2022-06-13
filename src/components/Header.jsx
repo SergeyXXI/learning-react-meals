@@ -13,7 +13,7 @@ const Header = () =>
                     <Link to="contact">Contact</Link>
                 </li> 
                 <li>
-                    <a href="https://github.com/SergeyXXI/learning-react-shop" target="_blank" rel="noreferrer">Repo</a>
+                    <a href="https://github.com/SergeyXXI/learning-react-meals" target="_blank" rel="noreferrer">Repo</a>
                 </li>                
             </ul>
         </div>

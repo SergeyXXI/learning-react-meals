@@ -4,7 +4,7 @@ const Footer = () =>
           <div className="footer-copyright">
             <div className="container">
                 © {new Date().getFullYear()} SZXXI
-                <a className="grey-text text-lighten-4 right" href="https://github.com/SergeyXXI/learning-react-shop" target="_blank" rel="noreferrer">Repo</a>
+                <a className="grey-text text-lighten-4 right" href="https://github.com/SergeyXXI/learning-react-meals" target="_blank" rel="noreferrer">Repo</a>
             </div>
           </div>
         </footer>
