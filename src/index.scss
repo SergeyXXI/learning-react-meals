@@ -1,0 +1,70 @@
+body
+{
+    min-width: 320px;  
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header
+{
+    padding: 0 1rem;
+}
+.content
+{     
+    min-height: calc(100vh - 64px - 50px);
+    padding: 1rem 0; 
+    
+    @at-root
+    {
+        .categories-list,
+        .meals-list
+        {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .card-category,
+        .card-meal
+        {
+            display: flex;
+            flex-direction: column;
+            
+            &-content
+            {
+                flex-grow: 1;
+            }
+        }
+        .recipe
+        {
+            &__img
+            {
+                max-width: 100%;
+            }
+            &-iframe-container
+            {
+                margin-top: 2rem;
+            }
+
+            iframe
+            {
+                width: 600px;
+                height: 400px;
+            }
+        }
+        
+    }
+}
+.footer
+{
+    padding-top: 0;
+}
