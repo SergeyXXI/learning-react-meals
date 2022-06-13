@@ -4,7 +4,7 @@ const Header = () =>
 (
     <nav className="header green darken-1">
         <div className="nav-wrapper">
-            <Link to="/">React Shop</Link>
+            <Link to="/">React Meals</Link>
             <ul id="nav-mobile" className="right hide-on-med-and-down">
                 <li>
                     <Link to="about">About</Link>
